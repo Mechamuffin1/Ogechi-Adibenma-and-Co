@@ -1349,3 +1349,57 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 /* 5. "Full contact details & office hours" link: legible on the dark band */
 .consult-band .text-link { color: var(--cream); border-bottom-color: rgba(246, 241, 228, 0.4); }
 .consult-band .text-link:hover { color: #fff; border-bottom-color: var(--sky); }
+
+/* ============================================================
+   Mobile optimization pass — readability, hierarchy, usability
+   (phones ≤ 640px). Everything here refines the existing layout
+   for small screens; desktop composition is untouched.
+   ============================================================ */
+@media (max-width: 640px) {
+
+  /* Roomier, consistent side gutters so content has room to breathe
+     and long-form copy keeps the same margins the whole way down. */
+  .container { padding-left: 1.5rem; padding-right: 1.5rem; }
+
+  /* --- Hero: shorter, centered, tighter --- */
+
+  /* Access the main content sooner — less scrolling before the fold. */
+  .hero--main .hero-panel {
+    min-height: 62vh;
+    padding: 3rem 0 2.5rem;
+  }
+
+  /* Center the headline, supporting copy and CTA for a single focal point. */
+  .hero--main .hero-inner { justify-content: center; }
+  .hero--main .hero-copy { max-width: 100%; text-align: center; }
+  .hero-headline { width: 100%; }
+  .hero-headline .hero-rule {
+    width: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.1rem;
+  }
+
+  /* Tighten vertical spacing, especially below the CTA. */
+  .hero-teaser {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.6rem;
+  }
+  .hero-panel .eyebrow { margin-bottom: 0.85rem; }
+
+  /* The "Keep reading" cue adds length without earning it on mobile. */
+  .scroll-cue { display: none; }
+
+  /* --- Content hierarchy: more air between sections and around headings --- */
+  .section { padding: 4.5rem 0; }
+  .section-head { margin-bottom: 2.75rem; }
+  .section-head h2 { margin-bottom: 0.55em; }
+  .section-head .lede { margin-top: 0.9rem; }
+
+  /* --- Profile metadata: more separation between items for scannability --- */
+  .profile-side dl { margin-top: 1.75rem; }
+  .profile-side dt { margin-top: 2rem; }
+  .profile-side dt:first-of-type { margin-top: 0; }
+  .profile-side dd { margin-top: 0.5rem; }
+}
