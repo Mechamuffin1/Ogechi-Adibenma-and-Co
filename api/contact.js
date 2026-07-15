@@ -30,7 +30,7 @@ module.exports = async function handler(req, res) {
 
   const apiKey = process.env.RESEND_API_KEY;
   const toEmail = process.env.CONTACT_TO_EMAIL || "chambers@ogechiadibenma.com";
-  const fromEmail = process.env.RESEND_FROM_EMAIL || "Ogechi Adibenma & Co Website <onboarding@resend.dev>";
+  const fromEmail = process.env.RESEND_FROM_EMAIL || "Ogechi Adibenma & Co <onboarding@resend.dev>";
 
   if (!apiKey) {
     console.error("Missing RESEND_API_KEY environment variable.");
