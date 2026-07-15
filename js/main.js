@@ -53,17 +53,58 @@
   }
 
   /* ----- Consultation forms -----
-     Forms post to the endpoint in their `action` attribute (e.g. Formspree).
-     Until a real endpoint is configured (action contains "FORM_ID"), we
-     intercept and show the confirmation locally so the site remains
-     demonstrable. Replace the action URL to go live — see README.md. */
+     Forms submit to /api/contact (a Vercel serverless function) which
+     emails the enquiry via Resend. A hidden honeypot field is added to
+     each form to catch simple bots. */
   document.querySelectorAll("form.form").forEach(function (form) {
+    var honeypot = document.createElement("input");
+    honeypot.type = "text";
+    honeypot.name = "company";
+    honeypot.autocomplete = "off";
+    honeypot.tabIndex = -1;
+    honeypot.setAttribute("aria-hidden", "true");
+    honeypot.style.cssText = "position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;";
+    form.appendChild(honeypot);
+
+    var errorEl = document.createElement("p");
+    errorEl.className = "form-error";
+    errorEl.setAttribute("role", "alert");
+    errorEl.textContent = "Something went wrong. Please try again, or email us directly.";
+    var successEl = form.querySelector(".form-success");
+    if (successEl) {
+      successEl.insertAdjacentElement("afterend", errorEl);
+    } else {
+      form.appendChild(errorEl);
+    }
+
     form.addEventListener("submit", function (e) {
-      var action = form.getAttribute("action") || "";
-      if (action.indexOf("FORM_ID") !== -1 || action === "") {
-        e.preventDefault();
-        form.classList.add("is-sent");
-      }
+      e.preventDefault();
+      if (form.classList.contains("is-sending")) return;
+
+      var data = {};
+      new FormData(form).forEach(function (value, key) { data[key] = value; });
+      data.page = window.location.pathname;
+
+      var submitBtn = form.querySelector("button[type=submit]");
+      form.classList.remove("has-error");
+      form.classList.add("is-sending");
+      if (submitBtn) submitBtn.disabled = true;
+
+      fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error("request-failed");
+          form.classList.remove("is-sending");
+          form.classList.add("is-sent");
+        })
+        .catch(function () {
+          form.classList.remove("is-sending");
+          form.classList.add("has-error");
+          if (submitBtn) submitBtn.disabled = false;
+        });
     });
   });
 })();

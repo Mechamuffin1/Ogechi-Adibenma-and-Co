@@ -825,6 +825,21 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .form.is-sent .form-success { display: block; }
 .form.is-sent .form-fields { display: none; }
 
+.form-error {
+  display: none;
+  border: 1px solid #b3261e;
+  background: rgba(179, 38, 30, 0.08);
+  padding: 1rem 1.25rem;
+  color: #7a1f1f;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  margin: 0.9rem 0 0;
+}
+.form.has-error .form-error { display: block; }
+.consult-band .form-error { background: rgba(247, 244, 238, 0.1); border-color: rgba(247, 244, 238, 0.4); color: var(--paper); }
+
+.form button[type="submit"]:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
 /* ---------- Pre-footer consult band ---------- */
 
 .consult-band { background: var(--navy-2); color: rgba(247, 244, 238, 0.85); }
