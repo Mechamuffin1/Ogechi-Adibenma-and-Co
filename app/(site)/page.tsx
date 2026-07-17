@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
+import { getAllArticles, getAllLawyers } from "@/sanity/lib/fetch";
+import { urlForImage } from "@/sanity/lib/image";
+
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: "Ogechi Adibenma & Co Legal Chambers — Surrogacy, Fertility & Commercial Law, Abuja",
@@ -50,34 +54,14 @@ const PRACTICE_INDEX = [
   { href: "/practice-areas/tech-and-ai-law", name: "Tech & AI Law", num: "08" },
 ];
 
-const HOME_PEOPLE = [
-  {
-    href: "/people/ogechi-adibenma", img: "/media/partners/ogechi-adibenma.jpeg",
-    name: "Ogechi Adibenma, Esq.", role: "Principal Partner",
-    cred: "LL.B (Hons), B.L. Leads the chambers’ surrogacy & fertility and family practices; published on assisted reproduction and family formation law.",
-    delay: undefined,
-  },
-  {
-    href: "/people/angela-anekwe", img: "/media/partners/angela-anekwe.jpeg",
-    name: "Angela Ekene Anekwe, Esq.", role: "Partner",
-    cred: "LL.B (Hons), B.L. Commercial and corporate: structures and agreements drafted to be tested, not admired.",
-    delay: "1",
-  },
-  {
-    href: "/people/elisha-agwah", img: "/media/partners/elisha-agwah.jpeg",
-    name: "Elisha Agwah, Esq.", role: "Partner",
-    cred: "LL.B (Hons), B.L. Property and real estate: what you verify before signing outweighs what you litigate after.",
-    delay: "2",
-  },
-  {
-    href: "/people/joel-nwushie", img: "/media/partners/joel-nwushie.jpeg",
-    name: "Joel Ezekiel Nwushie, Esq.", role: "Partner",
-    cred: "LL.B (Hons), B.L. Dispute resolution: the first duty of a litigator is honest arithmetic.",
-    delay: "3",
-  },
-];
+function monthYear(iso: string) {
+  return new Date(iso).toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+}
 
-export default function HomePage() {
+export default async function HomePage() {
+  const [lawyers, articles] = await Promise.all([getAllLawyers(), getAllArticles()]);
+  const latestArticles = articles.slice(0, 3);
+
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
@@ -144,24 +128,14 @@ export default function HomePage() {
             <p className="lede">We publish our thinking before it is billed, in long-form analysis on the questions clients actually bring us.</p>
           </div>
           <div className="insight-grid">
-            <Link className="insight-card reveal" href="/insights/surrogacy-agreements-nigeria">
-              <div className="meta">Surrogacy &amp; Fertility Law · June 2026</div>
-              <h3>Surrogacy in Nigeria: What Intending Parents Should Put in Writing</h3>
-              <p>There is no comprehensive federal surrogacy statute. That makes the agreement — and the sequence around it — the whole game.</p>
-              <div className="byline">Ogechi Adibenma, Esq.</div>
-            </Link>
-            <Link className="insight-card reveal" href="/insights/enforceability-of-surrogacy-agreements">
-              <div className="meta">Surrogacy &amp; Fertility Law · March 2026</div>
-              <h3>Is a Surrogacy Agreement Enforceable? Contract, Custody and the Courts</h3>
-              <p>The honest answer is layered: parts of these agreements behave like ordinary contracts, and parts do not. Knowing which is which changes how you draft.</p>
-              <div className="byline">Ogechi Adibenma, Esq.</div>
-            </Link>
-            <Link className="insight-card reveal" href="/insights/shareholders-agreements-before-you-sign">
-              <div className="meta">Corporate &amp; Commercial · May 2026</div>
-              <h3>The Shareholders&rsquo; Agreement You Wish You Had Signed</h3>
-              <p>Most founder disputes we see were decided years earlier, on the day the parties chose not to write four particular clauses down.</p>
-              <div className="byline">Angela Ekene Anekwe, Esq.</div>
-            </Link>
+            {latestArticles.map((art) => (
+              <Link className="insight-card reveal" href={`/insights/${art.slug}`} key={art._id}>
+                <div className="meta">{[art.practiceArea, monthYear(art.publishedAt)].filter(Boolean).join(" · ")}</div>
+                <h3>{art.title}</h3>
+                {art.excerpt && <p>{art.excerpt}</p>}
+                {art.authorName && <div className="byline">{art.authorName}</div>}
+              </Link>
+            ))}
           </div>
           <p style={{ marginTop: "2.5rem", textAlign: "center" }} className="reveal"><Link className="btn btn--lg" href="/insights">Read More Insights</Link></p>
         </div>
@@ -176,13 +150,23 @@ export default function HomePage() {
             <p className="lede">Every matter is held by counsel you can name and read, so authority is something you verify before you call.</p>
           </div>
           <div className="people-grid">
-            {HOME_PEOPLE.map((p) => (
-              <Link className="person-card reveal" data-delay={p.delay} href={p.href} key={p.href}>
-                <div className="person-photo"><img src={p.img} alt={p.name} /></div>
+            {lawyers.map((person, i) => (
+              <Link
+                className="person-card reveal"
+                data-delay={i > 0 ? String(Math.min(i, 3)) : undefined}
+                href={`/people/${person.slug}`}
+                key={person._id}
+              >
+                <div className="person-photo">
+                  {person.photo?.asset && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={urlForImage(person.photo, 640)} alt={person.photo.alt || person.name} />
+                  )}
+                </div>
                 <div className="person-body">
-                  <h3>{p.name}</h3>
-                  <div className="role">{p.role}</div>
-                  <p className="cred">{p.cred}</p>
+                  <h3>{person.name}</h3>
+                  {person.role && <div className="role">{person.role}</div>}
+                  {person.summary && <p className="cred">{person.summary}</p>}
                 </div>
               </Link>
             ))}
