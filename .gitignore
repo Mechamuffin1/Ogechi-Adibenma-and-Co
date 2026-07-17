@@ -13,3 +13,6 @@ next-env.d.ts
 
 # Local environment (Sanity project id, tokens)
 .env*.local
+
+# Not part of the website
+letterhead 1.pdf
