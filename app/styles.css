@@ -772,8 +772,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .contact-details dd { margin: 0.35rem 0 0; color: var(--muted); }
 
-.form { display: grid; gap: 1.1rem; }
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
+.form { display: grid; gap: 1.4rem; }
+.form-fields { display: grid; gap: 1.4rem; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; }
 @media (max-width: 560px) { .form-row { grid-template-columns: 1fr; } }
 
 .field label {
@@ -784,7 +785,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   text-transform: uppercase;
   color: var(--navy-2);
   display: block;
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.6rem;
 }
 .field input, .field select, .field textarea {
   width: 100%;
