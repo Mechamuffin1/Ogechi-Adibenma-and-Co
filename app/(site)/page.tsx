@@ -166,7 +166,6 @@ export default async function HomePage() {
                 <div className="person-body">
                   <h3>{person.name}</h3>
                   {person.role && <div className="role">{person.role}</div>}
-                  {person.summary && <p className="cred">{person.summary}</p>}
                 </div>
               </Link>
             ))}
