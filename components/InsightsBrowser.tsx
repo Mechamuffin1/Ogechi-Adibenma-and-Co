@@ -12,9 +12,10 @@ const AREAS: { key: string; label: string; practiceHref: string }[] = [
   { key: "family", label: "Family Law", practiceHref: "/practice-areas/family-law" },
   { key: "property", label: "Property & Real Estate", practiceHref: "/practice-areas/property-and-real-estate" },
   { key: "dispute", label: "Dispute Resolution", practiceHref: "/practice-areas/dispute-resolution" },
-  { key: "litigation", label: "Litigation", practiceHref: "/practice-areas/litigation" },
   { key: "maritime", label: "Maritime Law", practiceHref: "/practice-areas/maritime-law" },
   { key: "tech", label: "Tech & AI Law", practiceHref: "/practice-areas/tech-and-ai-law" },
+  { key: "ip", label: "Intellectual Property", practiceHref: "/practice-areas/intellectual-property" },
+  { key: "immigration", label: "Immigration Law", practiceHref: "/practice-areas/immigration-law" },
 ];
 
 function areaFor(practiceArea?: string) {

@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
             <p>The Firm, with its principal place of business at Plot 101 Brightview Estate, Lugbe, Abuja, FCT, Nigeria, is committed to protecting your privacy. This Privacy Policy is issued on behalf of the Firm and its offices, each of which is responsible for processing your Personal Data as relevant.</p>
             <p>The Firm is the Data Controller and is responsible for your Personal Data.</p>
             <p>We have appointed a data protection officer (<strong>DPO</strong>) who is responsible for overseeing questions in relation to this Privacy Policy. If you have any questions about this Privacy Policy, including any requests to exercise your legal rights, please contact the DPO using the details below:</p>
-            <p>Email address: <a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a><br />Postal address: Plot 101 Brightview Estate, Lugbe, Abuja, FCT, Nigeria.</p>
+            <p>Email address: <a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a><br />Postal address: Plot 101 Brightview Estate, Lugbe, Abuja, FCT, Nigeria.</p>
       
             <h2>4. What Personal Data We Collect</h2>
             <p>We collect Personal Data from you when you interact with us, such as when you visit our Website, complete an inquiry form, request our Services, subscribe to our communications, or participate in a survey. In the course of delivering our Services, we may also collect additional information necessary for Service delivery. The Personal Data we collect and use may include, amongst other things:</p>
@@ -136,7 +136,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>Withdraw consent</strong> at any time where we are relying on consent to Process your Personal Data.</li>
               <li><strong>Lodge a complaint</strong> with the NDPC if you believe we have not handled your Personal Data lawfully.</li>
             </ul>
-            <p>You may reach out to us at <a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a> to exercise any of these rights. We may continue to process your Personal Data where we can demonstrate a compelling legitimate basis that overrides your rights and freedoms.</p>
+            <p>You may reach out to us at <a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a> to exercise any of these rights. We may continue to process your Personal Data where we can demonstrate a compelling legitimate basis that overrides your rights and freedoms.</p>
       
             <h2>12. Automated Decision Making and Profiling</h2>
             <p>We do not Profile or carry out any Automated Decision Making with your Personal Data. Where the Firm intends to make automated decisions, we will update this Privacy Policy accordingly, obtain your consent, and Process your Personal Data in compliance with all data protection principles.</p>
@@ -153,7 +153,7 @@ export default function PrivacyPolicyPage() {
             </ul>
       
             <h2>14. How Can You Exercise Your Data Privacy Rights?</h2>
-            <p>If you wish to exercise any of the rights set out above, please contact our DPO by email at <a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a> or by post at Plot 101 Brightview Estate, Lugbe, Abuja, FCT, Nigeria. You will not have to pay a fee to access your Personal Data or to exercise any of your other rights, although we may charge a reasonable fee if your request is clearly unfounded, repetitive, or excessive. We may need to request specific information from you to confirm your identity. We try to respond to all legitimate requests within one month; occasionally it may take longer if your request is particularly complex, in which case we will notify you.</p>
+            <p>If you wish to exercise any of the rights set out above, please contact our DPO by email at <a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a> or by post at Plot 101 Brightview Estate, Lugbe, Abuja, FCT, Nigeria. You will not have to pay a fee to access your Personal Data or to exercise any of your other rights, although we may charge a reasonable fee if your request is clearly unfounded, repetitive, or excessive. We may need to request specific information from you to confirm your identity. We try to respond to all legitimate requests within one month; occasionally it may take longer if your request is particularly complex, in which case we will notify you.</p>
       
             <h2>15. Your Remedies in the Case of a Breach</h2>
             <p>We maintain a data breach procedure to deal with incidents concerning Personal Data leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, Personal Data. On notification of a breach, the Firm will investigate and take the actions required to manage it. If you believe we have breached any applicable law or this Privacy Policy, we would appreciate the chance to address your concerns before you approach the NDPC, so please contact us in the first instance.</p>
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
             <p>We may make changes to this Privacy Policy from time to time to reflect changes in law, our practices, or our Services. The &ldquo;Last updated&rdquo; date above indicates when this Privacy Policy was last revised, and any modifications are effective immediately upon posting. We generally advise you to visit this page regularly to keep track of any changes.</p>
       
             <h2>22. Contact Us</h2>
-            <p>Do not hesitate to contact us if you have any questions, at <a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a>.</p>
+            <p>Do not hesitate to contact us if you have any questions, at <a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a>.</p>
       
             <div className="article-disclaimer">This Privacy Policy is provided for general information and does not constitute legal advice.</div>
       

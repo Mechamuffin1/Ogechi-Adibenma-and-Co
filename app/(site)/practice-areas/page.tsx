@@ -30,7 +30,7 @@ export default function PracticeAreasPage() {
             <div className="container hero-inner">
               <span className="eyebrow reveal">Practice Areas</span>
               <h1 className="reveal" data-delay="1">Comprehensive Legal Expertise.<br />One Standard of Care.</h1>
-              <p className="lede reveal" data-delay="2">We lead where careful counsel is scarcest, surrogacy and commercial law, and carry full-service strength in family, property and disputes behind them.</p>
+              <p className="lede reveal" data-delay="2">We lead where careful counsel is scarcest, surrogacy and dispute resolution, and carry full-service strength across commercial, family, property, maritime, technology, intellectual property and immigration work behind them.</p>
             </div>
           </div>
         </section>
@@ -46,13 +46,13 @@ export default function PracticeAreasPage() {
                 <span className="eyebrow">Signature Practice</span>
                 <h3>Surrogacy &amp; Fertility Law</h3>
                 <p>Nigeria has no comprehensive surrogacy statute, which makes the agreement, the sequence and the counsel decisive. We act for intending parents, surrogates and clinics through the whole arc: agreements, consents, parental rights and birth registration.</p>
-                <span className="btn btn--icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
+                <span className="btn btn--icon" aria-hidden="true"><svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h21M17.5 3.5 22 8l-4.5 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
               </a>
-              <a className="practice-card practice-card--signature reveal" data-delay="1" href="/practice-areas/litigation">
+              <a className="practice-card practice-card--signature reveal" data-delay="1" href="/practice-areas/dispute-resolution">
                 <span className="eyebrow">Signature Practice</span>
-                <h3>Litigation</h3>
-                <p>Trial and appellate advocacy for the disputes that must be fought, built on the documents, and argued only after an honest reading of what the case is worth before it is filed.</p>
-                <span className="btn btn--icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h11M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
+                <h3>Dispute Resolution</h3>
+                <p>Negotiation, mediation, arbitration and trial and appellate advocacy before Nigerian courts. We tell clients honestly which disputes are worth fighting, and fight the ones that are, on the documents, after an honest reading of what the case is worth.</p>
+                <span className="btn btn--icon" aria-hidden="true"><svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h21M17.5 3.5 22 8l-4.5 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
               </a>
             </div>
           </div>
@@ -75,11 +75,6 @@ export default function PracticeAreasPage() {
                 <p>Title due diligence, conveyancing, perfection, leases and development agreements. In Nigerian property practice, what you verify before signing is worth more than what you litigate after.</p>
                 <span className="btn">Learn More</span>
               </a>
-              <a className="practice-card reveal" data-delay="2" href="/practice-areas/dispute-resolution">
-                <h3>Dispute Resolution</h3>
-                <p>Negotiation, mediation, arbitration and litigation before Nigerian courts. We tell clients honestly which disputes are worth fighting, and fight the ones that are.</p>
-                <span className="btn">Learn More</span>
-              </a>
               <a className="practice-card reveal" href="/practice-areas/commercial-and-corporate">
                 <h3>Corporate &amp; Commercial</h3>
                 <p>Incorporation and governance, shareholders&rsquo; agreements, commercial contracts, and regulatory compliance for businesses that intend to be around in twenty years.</p>
@@ -93,6 +88,16 @@ export default function PracticeAreasPage() {
               <a className="practice-card reveal" data-delay="2" href="/practice-areas/tech-and-ai-law">
                 <h3>Tech &amp; AI Law</h3>
                 <p>Data protection, platform and product counsel, and the governance questions raised by artificial intelligence, for the companies building what comes next.</p>
+                <span className="btn">Learn More</span>
+              </a>
+              <a className="practice-card reveal" href="/practice-areas/intellectual-property">
+                <h3>Intellectual Property</h3>
+                <p>Trademarks, copyright, trade secrets and licensing: protection put in writing before the idea is tested, not after it is taken.</p>
+                <span className="btn">Learn More</span>
+              </a>
+              <a className="practice-card reveal" data-delay="1" href="/practice-areas/immigration-law">
+                <h3>Immigration Law</h3>
+                <p>Work and residence permits, expatriate quotas, business visas and citizenship matters, handled on paper, in advance, before a journey depends on them.</p>
                 <span className="btn">Learn More</span>
               </a>
             </div>

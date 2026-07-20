@@ -26,8 +26,8 @@ const jsonLd = {
     addressRegion: "FCT",
     addressCountry: "NG",
   },
-  email: "chambers@ogechiadibenma.com",
-  telephone: "+234 800 000 0000",
+  email: "ogechiadibenma.co.legalchamber@gmail.com",
+  telephone: "+234 706 932 0220",
   openingHours: "Mo-Fr 09:00-17:00",
 };
 
@@ -55,13 +55,13 @@ export default function ContactPage() {
               <dt>Office</dt>
               <dd>Plot 101 Brightview Estate,<br />Lugbe, Abuja, FCT, Nigeria</dd>
               <dt>Telephone</dt>
-              <dd><a href="tel:+2348000000000">+234 (0) 800 000 0000</a></dd>
+              <dd><a href="tel:+2347069320220">+234 (0) 706 932 0220</a></dd>
               <dt>Email</dt>
-              <dd><a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a></dd>
+              <dd><a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a></dd>
               <dt>Hours</dt>
               <dd>Monday to Friday, 9:00–17:00 WAT<br />Consultations outside hours by arrangement</dd>
-              <dt>Admissions</dt>
-              <dd>All counsel are Barristers &amp; Solicitors of the Supreme Court of Nigeria and members of the Nigerian Bar Association.</dd>
+              <dt className="contact-admissions">Admissions</dt>
+              <dd className="contact-admissions">All counsel are Barristers &amp; Solicitors of the Supreme Court of Nigeria and members of the Nigerian Bar Association.</dd>
               <dt>Response time</dt>
               <dd>Every enquiry receives a considered reply within one business day.</dd>
             </dl>

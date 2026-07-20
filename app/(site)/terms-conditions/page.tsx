@@ -70,7 +70,7 @@ export default function TermsConditionsPage() {
             <p>Our failure to enforce any right or provision of these Terms does not constitute a waiver of such right or provision.</p>
       
             <h2>Contact</h2>
-            <p>If you have any questions about these Terms, please contact us at <a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a>.</p>
+            <p>If you have any questions about these Terms, please contact us at <a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a>.</p>
       
           </div>
         </div>

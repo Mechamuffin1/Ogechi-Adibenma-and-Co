@@ -35,8 +35,8 @@ const jsonLd = {
     addressRegion: "FCT",
     addressCountry: "NG",
   },
-  email: "chambers@ogechiadibenma.com",
-  telephone: "+234 800 000 0000",
+  email: "ogechiadibenma.co.legalchamber@gmail.com",
+  telephone: "+234 706 932 0220",
   knowsAbout: [
     "Surrogacy Law", "Fertility Law", "Assisted Reproduction Law", "Commercial Law",
     "Corporate Law", "Family Law", "Real Estate Law", "Dispute Resolution",
@@ -49,9 +49,10 @@ const PRACTICE_INDEX = [
   { href: "/practice-areas/family-law", name: "Family Law", num: "03" },
   { href: "/practice-areas/property-and-real-estate", name: "Property & Real Estate", num: "04" },
   { href: "/practice-areas/dispute-resolution", name: "Dispute Resolution", num: "05" },
-  { href: "/practice-areas/litigation", name: "Litigation", num: "06" },
-  { href: "/practice-areas/maritime-law", name: "Maritime Law", num: "07" },
-  { href: "/practice-areas/tech-and-ai-law", name: "Tech & AI Law", num: "08" },
+  { href: "/practice-areas/maritime-law", name: "Maritime Law", num: "06" },
+  { href: "/practice-areas/tech-and-ai-law", name: "Tech & AI Law", num: "07" },
+  { href: "/practice-areas/intellectual-property", name: "Intellectual Property", num: "08" },
+  { href: "/practice-areas/immigration-law", name: "Immigration Law", num: "09" },
 ];
 
 function monthYear(iso: string) {

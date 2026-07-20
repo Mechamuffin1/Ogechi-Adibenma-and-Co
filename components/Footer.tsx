@@ -17,6 +17,8 @@ export default function Footer() {
               <li><Link href="/practice-areas/family-law">Family Law</Link></li>
               <li><Link href="/practice-areas/property-and-real-estate">Property &amp; Real Estate</Link></li>
               <li><Link href="/practice-areas/dispute-resolution">Dispute Resolution</Link></li>
+              <li><Link href="/practice-areas/intellectual-property">Intellectual Property</Link></li>
+              <li><Link href="/practice-areas/immigration-law">Immigration Law</Link></li>
             </ul>
           </div>
           <div>
@@ -32,8 +34,8 @@ export default function Footer() {
             <h4>Contact</h4>
             <ul>
               <li>Plot 101 Brightview Estate,<br />Lugbe, Abuja, FCT</li>
-              <li><a href="tel:+2348000000000">+234 (0) 800 000 0000</a></li>
-              <li><a href="mailto:chambers@ogechiadibenma.com">chambers@ogechiadibenma.com</a></li>
+              <li><a href="tel:+2347069320220">+234 (0) 706 932 0220</a></li>
+              <li><a href="mailto:ogechiadibenma.co.legalchamber@gmail.com">ogechiadibenma.co.legalchamber@gmail.com</a></li>
               <li>Mon–Fri, 9:00–17:00 WAT</li>
             </ul>
           </div>

@@ -1548,3 +1548,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (prefers-reduced-motion: reduce) {
   .animated-mail, .mail-top-fold, .mail-letter, .mail-shadow { transition: none; }
 }
+
+/* Contact page below tablet: form first, chambers details after, Admissions hidden */
+@media (max-width: 767px) {
+  .contact-split { display: flex; flex-direction: column; }
+  .contact-split .form { order: -1; }
+  .contact-admissions { display: none; }
+}
