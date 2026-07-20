@@ -3,7 +3,7 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "About the Chambers — Founding Conviction & Standards | Ogechi Adibenma & Co",
+  title: "About the Chambers: Founding Conviction & Standards | Ogechi Adibenma & Co",
   description: "Why Ogechi Adibenma & Co Legal Chambers exists: counsel written plainly, in advance, and under our own names. Our founding conviction, our standards, and the people who hold them.",
   alternates: { canonical: "https://www.ogechiadibenma.com/about.html" },
   openGraph: {
@@ -39,13 +39,13 @@ export default function AboutPage() {
           <div className="container container--narrow">
             <div className="reveal">
               <h2>Why we set up</h2>
-              <p>This chambers was founded on an observation made too many times to ignore: most of the legal grief that reaches a lawyer&rsquo;s desk was avoidable, and what would have avoided it was rarely brilliance — it was care, applied early, in writing.</p>
+              <p>This chambers was founded on an observation made too many times to ignore: most of the legal grief that reaches a lawyer&rsquo;s desk was avoidable, and what would have avoided it was rarely brilliance, it was care, applied early, in writing.</p>
               <p>The surrogacy arrangement documented on a template. The company incorporated on a handshake. The land purchased on assurance rather than search. In each case, the expensive problem began as a cheap question nobody put to counsel in time.</p>
-              <p>So we built a practice around the early question. We lead with surrogacy and fertility law — a field where families take life-defining steps in a statutory vacuum, and where careful counsel is scarcest — and we carry that same discipline through commercial, family, property and disputes work.</p>
+              <p>So we built a practice around the early question. We lead with surrogacy and fertility law, a field where families take life-defining steps in a statutory vacuum, and where careful counsel is scarcest, and we carry that same discipline through commercial, family, property and disputes work.</p>
             </div>
             <div className="reveal">
               <h2>The standard we hold</h2>
-              <p>We publish our thinking before clients pay for it. Chambers Notes exists because we believe a client is entitled to see how their counsel reasons — and because writing for the public record imposes a discipline that private advice sometimes escapes. Every note, like every opinion we issue, carries the name of the counsel who wrote it.</p>
+              <p>We publish our thinking before clients pay for it. Chambers Notes exists because we believe a client is entitled to see how their counsel reasons, and because writing for the public record imposes a discipline that private advice sometimes escapes. Every note, like every opinion we issue, carries the name of the counsel who wrote it.</p>
               <p>We are a young chambers, and we do not pretend to decades we do not have. What we hold instead is a standard: no advice we cannot explain plainly, no document we would not sign our name beneath, no fee that was not agreed before the work began.</p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function AboutPage() {
               </div>
               <div className="value-item reveal" data-delay="1">
                 <h3>Candour over comfort</h3>
-                <p>If your case is weak, your structure risky, or litigation not worth its price, you will hear it from us first — in writing, with reasons.</p>
+                <p>If your case is weak, your structure risky, or litigation not worth its price, you will hear it from us first, in writing, with reasons.</p>
               </div>
               <div className="value-item reveal" data-delay="2">
                 <h3>One name on your matter</h3>
@@ -79,7 +79,7 @@ export default function AboutPage() {
             <div className="section-head reveal">
               <span className="eyebrow">The People</span>
               <h2>Who holds the standard</h2>
-              <p className="lede">Full profiles — credentials, admissions, publications and a line of personality each — are on the People page.</p>
+              <p className="lede">Full profiles, credentials, admissions, publications and a line of personality each, are on the People page.</p>
             </div>
             <div className="people-grid">
               <a className="person-card reveal" href="/people/ogechi-adibenma">

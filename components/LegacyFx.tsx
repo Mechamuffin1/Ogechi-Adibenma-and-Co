@@ -54,7 +54,7 @@ export default function LegacyFx({ libs = [], inits = [] }: { libs?: string[]; i
           await runScript(init);
         }
       } catch {
-        /* Ambience only — the page works without it. */
+        /* Ambience only, the page works without it. */
       }
     })();
     return () => {

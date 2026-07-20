@@ -3,7 +3,7 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Tech & AI Law in Nigeria — Data Protection, Platform Counsel & AI Governance | Ogechi Adibenma & Co",
+  title: "Tech & AI Law in Nigeria: Data Protection, Platform Counsel & AI Governance | Ogechi Adibenma & Co",
   description: "Technology and AI lawyers in Abuja, Nigeria. Data protection under the NDPA, platform and product counsel, intellectual property and the governance questions raised by artificial intelligence.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/tech-and-ai-law.html" },
   openGraph: {
@@ -32,7 +32,7 @@ export default function PracticeAreasTechAndAiLawPage() {
             <div className="container hero-inner">
               <p className="breadcrumb reveal"><a href="/practice-areas">Practice Areas</a> / Full-Service Practice</p>
               <h1 className="reveal" data-delay="1">Tech &amp; AI Law</h1>
-              <p className="lede reveal" data-delay="2">Counsel for the companies building what comes next — where data, product and artificial intelligence outrun the settled law, and the drafting has to think ahead.</p>
+              <p className="lede reveal" data-delay="2">Counsel for the companies building what comes next, where data, product and artificial intelligence outrun the settled law, and the drafting has to think ahead.</p>
             </div>
           </div>
         </section>
@@ -42,7 +42,7 @@ export default function PracticeAreasTechAndAiLawPage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>Technology businesses move faster than the statutes that govern them. Founders and product teams face real obligations — data protection under the Nigeria Data Protection Act 2023, platform liability, intellectual property, and the novel questions raised by deploying AI — often without in-house counsel to translate them into decisions. We act for startups, platforms and established companies that want to build boldly without inheriting avoidable legal risk.</p>
+              <p>Technology businesses move faster than the statutes that govern them. Founders and product teams face real obligations, data protection under the Nigeria Data Protection Act 2023, platform liability, intellectual property, and the novel questions raised by deploying AI, often without in-house counsel to translate them into decisions. We act for startups, platforms and established companies that want to build boldly without inheriting avoidable legal risk.</p>
             </div>
       
             <div className="reveal">
@@ -51,7 +51,7 @@ export default function PracticeAreasTechAndAiLawPage() {
                 <li><strong>Data protection, made operational.</strong> NDPA 2023 compliance turned into policies, notices and processes a product team can actually follow.</li>
                 <li><strong>Platform &amp; product counsel.</strong> Terms of service, user and vendor agreements, and liability allocation drafted for how the product really works.</li>
                 <li><strong>IP that travels.</strong> Ownership of code, content and models secured across contractors, employees and collaborators.</li>
-                <li><strong>AI governance.</strong> Practical guardrails for training data, model deployment and disclosure — built for a field where the rules are still being written.</li>
+                <li><strong>AI governance.</strong> Practical guardrails for training data, model deployment and disclosure, built for a field where the rules are still being written.</li>
               </ul>
             </div>
       
@@ -60,7 +60,7 @@ export default function PracticeAreasTechAndAiLawPage() {
               <ul>
                 <li>Plain-language advice a non-lawyer product team can act on.</li>
                 <li>Documents drafted for your actual stack and data flows, not a template.</li>
-                <li>Fixed-fee stages for defined work — reviews, policies, standard agreements.</li>
+                <li>Fixed-fee stages for defined work, reviews, policies, standard agreements.</li>
                 <li>Counsel who track how the law is moving, and flag it before it bites.</li>
               </ul>
             </div>
@@ -74,7 +74,7 @@ export default function PracticeAreasTechAndAiLawPage() {
                 </details>
                 <details>
                   <summary>Can you advise on deploying AI in our product?</summary>
-                  <p>Yes — on training-data rights, output and liability questions, disclosure, and the contracts around third-party models. The law here is unsettled, so we advise on defensible positions rather than false certainty.</p>
+                  <p>Yes, on training-data rights, output and liability questions, disclosure, and the contracts around third-party models. The law here is unsettled, so we advise on defensible positions rather than false certainty.</p>
                 </details>
               </div>
             </div>

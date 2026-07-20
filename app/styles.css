@@ -5,9 +5,9 @@
    ============================================================ */
 
 :root {
-  --paper: #f4f2ec;
-  --paper-2: #eae7dd;
-  --card: #fffdf8;
+  --paper: #f9f8f4;
+  --paper-2: #f1efe8;
+  --card: #fffefb;
   --navy: #0f1f3a;      /* deep marine — footer, dark bands */
   --navy-2: #1b3a6e;    /* consult band, signature cards */
   --navy-3: #2f5ca6;
@@ -125,6 +125,9 @@ a:hover { color: var(--accent-dark); }
 .btn--light { background: var(--cream); color: var(--navy); box-shadow: 0 12px 28px -14px rgba(6, 16, 34, 0.55); }
 .btn--light:hover { background: #fff; color: var(--navy); }
 .btn--lg { padding: 0.85rem 2rem; font-size: 0.82rem; }
+/* Arrow-only pill (practice cards): same pill language, icon instead of copy */
+.btn--icon { padding: 0.72rem 1.15rem; line-height: 0; }
+.btn--icon svg { display: block; }
 .accent-word { color: var(--accent); text-transform: uppercase; }
 
 /* Reusable subtle chevron texture over a section colour (Chambers Notes,
@@ -454,6 +457,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .practice-card h3 { margin-bottom: 0.5em; }
 .practice-card p { color: var(--muted); font-size: 0.98rem; margin-bottom: 1.5em; }
 .practice-card .text-link { margin-top: auto; align-self: flex-start; border-bottom-color: transparent; }
+.practice-card .btn { margin-top: auto; align-self: flex-start; }
 .practice-card:hover .text-link { border-bottom-color: var(--accent); }
 
 .practice-card--signature {

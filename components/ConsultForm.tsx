@@ -97,7 +97,7 @@ export default function ConsultForm({
         </button>
         <p className="form-note">Sending an enquiry does not create a lawyer–client relationship. Please do not include confidential detail at this stage.</p>
       </div>
-      <div className="form-success" role="status">Thank you. Your enquiry has been received — expect a considered reply within one business day.</div>
+      <div className="form-success" role="status">Thank you. Your enquiry has been received. Expect a considered reply within one business day.</div>
       <p className="form-error" role="alert">Something went wrong. Please try again, or email us directly.</p>
     </form>
   );

@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const person = await getLawyerBySlug(slug);
   if (!person) return {};
   return {
-    title: `${person.name} — ${person.role || "Counsel"} | Ogechi Adibenma & Co`,
+    title: `${person.name}: ${person.role || "Counsel"} | Ogechi Adibenma & Co`,
     description: person.lede || person.summary,
     alternates: { canonical: `https://www.ogechiadibenma.com/people/${person.slug}.html` },
     openGraph: {
       type: "profile",
-      title: `${person.name}${person.role ? ` — ${person.role}` : ""}`,
+      title: `${person.name}${person.role ? `: ${person.role}` : ""}`,
       description: person.lede || person.summary || "",
     },
   };
@@ -127,7 +127,7 @@ export default async function LawyerProfilePage({ params }: Props) {
               <ul>
                 {person.articles.map((a) => (
                   <li key={a.slug}>
-                    <Link href={`/insights/${a.slug}`}>{a.title}</Link> — Chambers Notes, {monthYear(a.publishedAt)}
+                    <Link href={`/insights/${a.slug}`}>{a.title}</Link>, Chambers Notes, {monthYear(a.publishedAt)}
                   </li>
                 ))}
               </ul>

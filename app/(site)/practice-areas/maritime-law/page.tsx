@@ -3,13 +3,13 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Maritime Law in Nigeria — Admiralty, Shipping, Charterparties & Cargo Claims | Ogechi Adibenma & Co",
+  title: "Maritime Law in Nigeria: Admiralty, Shipping, Charterparties & Cargo Claims | Ogechi Adibenma & Co",
   description: "Maritime lawyers in Abuja, Nigeria. Admiralty and shipping counsel: charterparties, cargo claims, vessel arrest and marine regulatory work for operators moving goods through Nigerian and international waters.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/maritime-law.html" },
   openGraph: {
     type: "website",
     title: "Maritime Law | Ogechi Adibenma & Co Legal Chambers",
-    description: "Admiralty and shipping counsel — charterparties, cargo claims, vessel arrest and marine regulatory work.",
+    description: "Admiralty and shipping counsel, charterparties, cargo claims, vessel arrest and marine regulatory work.",
   },
 };
 
@@ -32,7 +32,7 @@ export default function PracticeAreasMaritimeLawPage() {
             <div className="container hero-inner">
               <p className="breadcrumb reveal"><a href="/practice-areas">Practice Areas</a> / Full-Service Practice</p>
               <h1 className="reveal" data-delay="1">Maritime Law</h1>
-              <p className="lede reveal" data-delay="2">Admiralty and shipping counsel for a trading nation — the contracts that move cargo, and the claims that arise when a voyage does not go to plan.</p>
+              <p className="lede reveal" data-delay="2">Admiralty and shipping counsel for a trading nation, the contracts that move cargo, and the claims that arise when a voyage does not go to plan.</p>
             </div>
           </div>
         </section>
@@ -58,7 +58,7 @@ export default function PracticeAreasMaritimeLawPage() {
             <div className="reveal">
               <h2>What to expect</h2>
               <ul>
-                <li>Rapid first response on time-critical matters — arrest, release and security.</li>
+                <li>Rapid first response on time-critical matters, arrest, release and security.</li>
                 <li>A written view of the merits and the forum before a claim is commenced.</li>
                 <li>Fee clarity, with urgent work scoped and confirmed in writing.</li>
                 <li>Coordination with surveyors, P&amp;I clubs and correspondents where needed.</li>
@@ -70,7 +70,7 @@ export default function PracticeAreasMaritimeLawPage() {
               <div className="faq">
                 <details>
                   <summary>Which court hears admiralty matters in Nigeria?</summary>
-                  <p>The Federal High Court has admiralty jurisdiction. Time limits and security requirements can be tight, so early advice — ideally before a vessel sails — materially improves your position.</p>
+                  <p>The Federal High Court has admiralty jurisdiction. Time limits and security requirements can be tight, so early advice, ideally before a vessel sails, materially improves your position.</p>
                 </details>
                 <details>
                   <summary>Can you act on an urgent vessel arrest?</summary>

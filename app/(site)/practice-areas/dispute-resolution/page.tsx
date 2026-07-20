@@ -3,13 +3,13 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Dispute Resolution in Nigeria — Litigation, Arbitration & Mediation | Ogechi Adibenma & Co",
-  description: "Dispute resolution lawyers in Abuja, Nigeria. Litigation before Nigerian courts, arbitration and mediation — we tell clients which disputes are worth fighting, and fight the ones that are.",
+  title: "Dispute Resolution in Nigeria: Litigation, Arbitration & Mediation | Ogechi Adibenma & Co",
+  description: "Dispute resolution lawyers in Abuja, Nigeria. Litigation before Nigerian courts, arbitration and mediation, we tell clients which disputes are worth fighting, and fight the ones that are.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/dispute-resolution.html" },
   openGraph: {
     type: "website",
     title: "Dispute Resolution | Ogechi Adibenma & Co Legal Chambers",
-    description: "Negotiation, arbitration and litigation — pursued when it serves you, avoided when it doesn't.",
+    description: "Negotiation, arbitration and litigation, pursued when it serves you, avoided when it doesn't.",
   },
 };
 
@@ -32,7 +32,7 @@ export default function PracticeAreasDisputeResolutionPage() {
             <div className="container hero-inner">
               <p className="breadcrumb reveal"><a href="/practice-areas">Practice Areas</a> / Full-Service Practice</p>
               <h1 className="reveal" data-delay="1">Dispute Resolution</h1>
-              <p className="lede reveal" data-delay="2">The first question is never how to win — it is whether this fight, in this forum, at this cost, serves you. We answer that honestly, then act on the answer.</p>
+              <p className="lede reveal" data-delay="2">The first question is never how to win, it is whether this fight, in this forum, at this cost, serves you. We answer that honestly, then act on the answer.</p>
             </div>
           </div>
         </section>
@@ -42,14 +42,14 @@ export default function PracticeAreasDisputeResolutionPage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>Nigerian litigation can be long, and its length is itself a weapon — one that parties on both sides know how to use. Clients come to us with breached contracts, property claims, partnership fallouts and enforcement problems, and what they need first is not bravado but arithmetic: what the claim is worth, what pursuing it costs in money and years, and whether a negotiated or arbitrated route reaches the substance faster.</p>
+              <p>Nigerian litigation can be long, and its length is itself a weapon, one that parties on both sides know how to use. Clients come to us with breached contracts, property claims, partnership fallouts and enforcement problems, and what they need first is not bravado but arithmetic: what the claim is worth, what pursuing it costs in money and years, and whether a negotiated or arbitrated route reaches the substance faster.</p>
             </div>
       
             <div className="reveal">
               <h2>Our approach</h2>
               <ul>
-                <li><strong>Merits and economics assessed together.</strong> A written opinion on prospects, quantum and realistic timelines before proceedings are recommended — including when we advise against them.</li>
-                <li><strong>The right forum, deliberately.</strong> Court, arbitration under the Arbitration and Mediation Act 2023, or structured negotiation — chosen for your dispute, not by default.</li>
+                <li><strong>Merits and economics assessed together.</strong> A written opinion on prospects, quantum and realistic timelines before proceedings are recommended, including when we advise against them.</li>
+                <li><strong>The right forum, deliberately.</strong> Court, arbitration under the Arbitration and Mediation Act 2023, or structured negotiation, chosen for your dispute, not by default.</li>
                 <li><strong>Pleadings built on documents.</strong> Cases are won on records; we build the evidentiary spine before the first process is filed.</li>
                 <li><strong>Enforcement planned from the start.</strong> A judgment you cannot enforce is a certificate. We identify assets and enforcement routes when strategy is set, not after victory.</li>
               </ul>
@@ -58,7 +58,7 @@ export default function PracticeAreasDisputeResolutionPage() {
             <div className="reveal">
               <h2>What to expect</h2>
               <ul>
-                <li>An honest merits assessment in writing — even when the honest answer is &ldquo;settle.&rdquo;</li>
+                <li>An honest merits assessment in writing, even when the honest answer is &ldquo;settle.&rdquo;</li>
                 <li>Cost estimates by stage, revisited as the matter develops.</li>
                 <li>Reporting after every hearing and material development, without being asked.</li>
                 <li>Settlement kept live at every stage where it serves you.</li>
@@ -70,11 +70,11 @@ export default function PracticeAreasDisputeResolutionPage() {
               <div className="faq">
                 <details>
                   <summary>How long will my case take?</summary>
-                  <p>It depends on forum, court, and the other side&rsquo;s appetite for delay — first-instance commercial litigation is commonly measured in years, arbitration usually in months. We give you a realistic range at the outset and update it honestly as the matter develops.</p>
+                  <p>It depends on forum, court, and the other side&rsquo;s appetite for delay, first-instance commercial litigation is commonly measured in years, arbitration usually in months. We give you a realistic range at the outset and update it honestly as the matter develops.</p>
                 </details>
                 <details>
                   <summary>Is arbitration better than court?</summary>
-                  <p>Sometimes. It is typically faster and private, and awards are enforceable, but it requires an arbitration agreement and has its own costs. Where your contracts are still being drafted, the better question is which disputes you want arbitrated — that is a drafting decision we handle with our <a href="/practice-areas/commercial-and-corporate">commercial practice</a>.</p>
+                  <p>Sometimes. It is typically faster and private, and awards are enforceable, but it requires an arbitration agreement and has its own costs. Where your contracts are still being drafted, the better question is which disputes you want arbitrated, that is a drafting decision we handle with our <a href="/practice-areas/commercial-and-corporate">commercial practice</a>.</p>
                 </details>
                 <details>
                   <summary>Will you take a case you think we will lose?</summary>

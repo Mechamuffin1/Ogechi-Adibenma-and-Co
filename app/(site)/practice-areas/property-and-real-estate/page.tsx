@@ -3,8 +3,8 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Property & Real Estate Law in Nigeria — Title Due Diligence, Conveyancing & Leases | Ogechi Adibenma & Co",
-  description: "Property lawyers in Abuja, Nigeria. Title verification and due diligence, conveyancing, perfection of title, leases and development agreements — what you verify before signing is worth more than what you litigate after.",
+  title: "Property & Real Estate Law in Nigeria: Title Due Diligence, Conveyancing & Leases | Ogechi Adibenma & Co",
+  description: "Property lawyers in Abuja, Nigeria. Title verification and due diligence, conveyancing, perfection of title, leases and development agreements, what you verify before signing is worth more than what you litigate after.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/property-and-real-estate.html" },
   openGraph: {
     type: "website",
@@ -42,14 +42,14 @@ export default function PracticeAreasPropertyAndRealEstatePage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>Property in Nigeria rewards patience and punishes haste. Competing claims to the same land, imperfect or unregistered titles, family and community property sold without full consent, government acquisition history that surfaces years later — the catalogue of avoidable losses is long, and nearly all of it traces back to due diligence that was skipped or rushed.</p>
+              <p>Property in Nigeria rewards patience and punishes haste. Competing claims to the same land, imperfect or unregistered titles, family and community property sold without full consent, government acquisition history that surfaces years later, the catalogue of avoidable losses is long, and nearly all of it traces back to due diligence that was skipped or rushed.</p>
               <p>Clients come to us before they buy, lease or build, because the cost of investigation is trivial next to the cost of a defective root of title.</p>
             </div>
       
             <div className="reveal">
               <h2>Our approach</h2>
               <ul>
-                <li><strong>Investigation before commitment.</strong> Registry searches, root-of-title analysis, verification of the vendor&rsquo;s capacity to sell, and physical inspection of the land — reported in writing before you commit funds.</li>
+                <li><strong>Investigation before commitment.</strong> Registry searches, root-of-title analysis, verification of the vendor&rsquo;s capacity to sell, and physical inspection of the land, reported in writing before you commit funds.</li>
                 <li><strong>Documents drafted for the registry, not just the parties.</strong> Deeds of assignment, leases and powers of attorney prepared with perfection in mind: governor&rsquo;s consent, stamping and registration planned from the start.</li>
                 <li><strong>Perfection actually completed.</strong> Perfection of title is where many transactions quietly stall; we treat it as part of the retainer, not an afterthought.</li>
                 <li><strong>Leases with working machinery.</strong> Rent review, repair, renewal and recovery provisions drafted to be exercised, not admired.</li>
@@ -60,9 +60,9 @@ export default function PracticeAreasPropertyAndRealEstatePage() {
               <h2>What to expect</h2>
               <ul>
                 <li>A written due diligence report with a clear recommendation: proceed, renegotiate, or walk away.</li>
-                <li>Fee clarity — search, drafting and perfection stages quoted separately in advance.</li>
+                <li>Fee clarity, search, drafting and perfection stages quoted separately in advance.</li>
                 <li>Progress reporting through perfection, which can outlast the transaction itself.</li>
-                <li>Plain answers about timing — including honest ones.</li>
+                <li>Plain answers about timing, including honest ones.</li>
               </ul>
             </div>
       
@@ -79,7 +79,7 @@ export default function PracticeAreasPropertyAndRealEstatePage() {
                 </details>
                 <details>
                   <summary>Can you act if I am buying from abroad?</summary>
-                  <p>Yes. We regularly act for diaspora purchasers — verification, negotiation, execution by power of attorney and perfection can all be handled without your physical presence, with documentary reporting at each stage.</p>
+                  <p>Yes. We regularly act for diaspora purchasers, verification, negotiation, execution by power of attorney and perfection can all be handled without your physical presence, with documentary reporting at each stage.</p>
                 </details>
               </div>
             </div>

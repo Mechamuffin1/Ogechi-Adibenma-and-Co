@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ConsultForm from "@/components/ConsultForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Request a Consultation | Ogechi Adibenma & Co Legal Chambers, Abuja",
+  title: "Contact: Request a Consultation | Ogechi Adibenma & Co Legal Chambers, Abuja",
   description:
     "Request a consultation with Ogechi Adibenma & Co Legal Chambers, Abuja. One clean form, a stated response time of one business day, and full office details.",
   alternates: { canonical: "https://www.ogechiadibenma.com/contact.html" },

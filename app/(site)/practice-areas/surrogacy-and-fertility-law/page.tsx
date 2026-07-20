@@ -3,13 +3,13 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Surrogacy & Fertility Law in Nigeria — Agreements, Parental Rights & Birth Registration | Ogechi Adibenma & Co",
+  title: "Surrogacy & Fertility Law in Nigeria: Agreements, Parental Rights & Birth Registration | Ogechi Adibenma & Co",
   description: "Surrogacy lawyers in Abuja, Nigeria. We draft and review surrogacy agreements, advise intending parents, surrogates and fertility clinics, and handle parental rights, consents and birth registration.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/surrogacy-and-fertility-law.html" },
   openGraph: {
     type: "website",
     title: "Surrogacy & Fertility Law | Ogechi Adibenma & Co Legal Chambers",
-    description: "Counsel for every party to a family formed through assisted reproduction — agreements, parental rights, clinic engagements and birth registration.",
+    description: "Counsel for every party to a family formed through assisted reproduction, agreements, parental rights, clinic engagements and birth registration.",
   },
 };
 
@@ -70,21 +70,21 @@ export default function PracticeAreasSurrogacyAndFertilityLawPage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>Nigeria has no comprehensive federal statute governing surrogacy. Intending parents, surrogates and clinics therefore operate in a space assembled from contract law, family and child-rights law, medical regulation and state-level guidelines — a space where most of the risk is invisible until something goes wrong: a disputed handover, a registration refusal, a clinic form that quietly contradicts the agreement everyone signed.</p>
-              <p>Much of what circulates as "standard practice" is template drafting that has never been tested. Our clients come to us because they want the arrangement to hold — legally, practically and humanly — from the first clinic consultation to the entry in the birth register.</p>
+              <p>Nigeria has no comprehensive federal statute governing surrogacy. Intending parents, surrogates and clinics therefore operate in a space assembled from contract law, family and child-rights law, medical regulation and state-level guidelines, a space where most of the risk is invisible until something goes wrong: a disputed handover, a registration refusal, a clinic form that quietly contradicts the agreement everyone signed.</p>
+              <p>Much of what circulates as "standard practice" is template drafting that has never been tested. Our clients come to us because they want the arrangement to hold, legally, practically and humanly, from the first clinic consultation to the entry in the birth register.</p>
             </div>
       
             <div className="reveal">
               <h2>Our approach</h2>
               <p>We treat a surrogacy arrangement as a sequence, not a document. The agreement matters enormously, but so does what happens before and after it is signed:</p>
               <ul>
-                <li><strong>Structure first.</strong> Gestational or traditional; known or introduced surrogate; which consents, screenings and counselling must precede signature — we settle the architecture before drafting a word.</li>
+                <li><strong>Structure first.</strong> Gestational or traditional; known or introduced surrogate; which consents, screenings and counselling must precede signature, we settle the architecture before drafting a word.</li>
                 <li><strong>Independent advice for the surrogate.</strong> Where we act for intending parents, we insist the surrogate is separately and genuinely advised. It protects her, and it protects the agreement.</li>
                 <li><strong>Drafting for the layered reality.</strong> Commercial terms are drafted as contract; parentage and custody provisions are drafted in full awareness that the child&rsquo;s best interests govern. Pretending otherwise is how templates fail.</li>
                 <li><strong>The registration pathway, planned in advance.</strong> Hospital documentation, consents and the birth registration route are prepared before delivery, not improvised after it.</li>
                 <li><strong>Clinic engagements aligned.</strong> We review clinic and hospital paperwork so no consent form undermines the principal agreement.</li>
               </ul>
-              <p>We act for intending parents, for surrogates, and for fertility clinics building compliant engagement processes — though never for more than one party to the same arrangement.</p>
+              <p>We act for intending parents, for surrogates, and for fertility clinics building compliant engagement processes, though never for more than one party to the same arrangement.</p>
             </div>
       
             <div className="reveal">
@@ -93,7 +93,7 @@ export default function PracticeAreasSurrogacyAndFertilityLawPage() {
                 <li>An initial consultation in which we map your situation against the current legal landscape, in plain language.</li>
                 <li>A written opinion or roadmap before any drafting begins, so you understand the risks you are accepting and the ones we can remove.</li>
                 <li>Drafts you can actually read. If a clause cannot be explained simply, it is redrafted until it can.</li>
-                <li>Availability through the pregnancy — the questions do not stop at signature, and neither do we.</li>
+                <li>Availability through the pregnancy, the questions do not stop at signature, and neither do we.</li>
                 <li>Fixed-fee stages wherever the work allows it, agreed in writing before we start.</li>
               </ul>
             </div>
@@ -107,7 +107,7 @@ export default function PracticeAreasSurrogacyAndFertilityLawPage() {
                 </details>
                 <details>
                   <summary>Is a surrogacy agreement enforceable?</summary>
-                  <p>In layers. Commercial and logistical terms are generally analysed as ordinary contract terms. Provisions touching parentage and custody are ultimately subject to a court&rsquo;s assessment of the best interests of the child. We draft with that reality in view — we have written about it at length in <a href="/insights/enforceability-of-surrogacy-agreements">Chambers Notes</a>.</p>
+                  <p>In layers. Commercial and logistical terms are generally analysed as ordinary contract terms. Provisions touching parentage and custody are ultimately subject to a court&rsquo;s assessment of the best interests of the child. We draft with that reality in view, we have written about it at length in <a href="/insights/enforceability-of-surrogacy-agreements">Chambers Notes</a>.</p>
                 </details>
                 <details>
                   <summary>Whose names go on the birth certificate?</summary>

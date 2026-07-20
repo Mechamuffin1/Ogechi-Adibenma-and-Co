@@ -8,7 +8,7 @@ import { urlForImage } from "@/sanity/lib/image";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Ogechi Adibenma & Co Legal Chambers — Surrogacy, Fertility & Commercial Law, Abuja",
+  title: "Ogechi Adibenma & Co Legal Chambers: Surrogacy, Fertility & Commercial Law, Abuja",
   description:
     "Ogechi Adibenma & Co Legal Chambers advises families formed through surrogacy and assisted reproduction, and businesses built to last. Considered counsel in surrogacy, commercial, family, property and dispute resolution law.",
   alternates: { canonical: "https://www.ogechiadibenma.com/" },

@@ -117,7 +117,7 @@ export default async function ArticlePage({ params }: Props) {
 
             <div className="article-disclaimer">
               This note is commentary on the law as at {monthYear(article.publishedAt)}, not legal advice, and does not
-              create a lawyer–client relationship. Matters turn on their specific facts — take advice on yours.{" "}
+              create a lawyer–client relationship. Matters turn on their specific facts, take advice on yours.{" "}
               <Link href="/contact">Request a consultation</Link>.
             </div>
           </div>

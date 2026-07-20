@@ -63,7 +63,7 @@ export async function POST(req: Request) {
         from: fromEmail,
         to: [toEmail],
         reply_to: email,
-        subject: `New enquiry from ${name} — Ogechi Adibenma & Co website`,
+        subject: `New enquiry from ${name}, Ogechi Adibenma & Co website`,
         text: bodyLines.join("\n"),
       }),
     });

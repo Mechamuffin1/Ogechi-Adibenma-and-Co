@@ -3,13 +3,13 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Family Law in Nigeria — Custody, Divorce, Maintenance & Adoption | Ogechi Adibenma & Co",
-  description: "Family lawyers in Abuja, Nigeria. Custody, divorce and dissolution under the Matrimonial Causes Act, maintenance, adoption and guardianship — handled with discretion and steadiness.",
+  title: "Family Law in Nigeria: Custody, Divorce, Maintenance & Adoption | Ogechi Adibenma & Co",
+  description: "Family lawyers in Abuja, Nigeria. Custody, divorce and dissolution under the Matrimonial Causes Act, maintenance, adoption and guardianship, handled with discretion and steadiness.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/family-law.html" },
   openGraph: {
     type: "website",
     title: "Family Law | Ogechi Adibenma & Co Legal Chambers",
-    description: "Custody, divorce, maintenance, adoption and guardianship — handled with discretion and a steady hand.",
+    description: "Custody, divorce, maintenance, adoption and guardianship, handled with discretion and a steady hand.",
   },
 };
 
@@ -42,16 +42,16 @@ export default function PracticeAreasFamilyLawPage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>Family disputes arrive carrying more than legal questions — custody and access, maintenance, the dissolution of statutory or customary marriage, adoption and guardianship all sit inside relationships that will usually continue in some form after the case ends. Clients come to us when they need an advocate who will protect their position without inflaming what remains.</p>
-              <p>Nigeria&rsquo;s plural system — the Matrimonial Causes Act, the Child&rsquo;s Rights Act where domesticated, customary and Islamic law — means the forum and framing of a family matter can matter as much as its facts. Choosing them well is half the work.</p>
+              <p>Family disputes arrive carrying more than legal questions, custody and access, maintenance, the dissolution of statutory or customary marriage, adoption and guardianship all sit inside relationships that will usually continue in some form after the case ends. Clients come to us when they need an advocate who will protect their position without inflaming what remains.</p>
+              <p>Nigeria&rsquo;s plural system, the Matrimonial Causes Act, the Child&rsquo;s Rights Act where domesticated, customary and Islamic law, means the forum and framing of a family matter can matter as much as its facts. Choosing them well is half the work.</p>
             </div>
       
             <div className="reveal">
               <h2>Our approach</h2>
               <ul>
-                <li><strong>Candour first.</strong> A realistic written assessment of your position before strategy is set — including when settlement serves you better than victory.</li>
+                <li><strong>Candour first.</strong> A realistic written assessment of your position before strategy is set, including when settlement serves you better than victory.</li>
                 <li><strong>The child&rsquo;s interests as the fixed point.</strong> In custody and guardianship, Nigerian courts apply the best-interests standard; we build cases that speak to it rather than around it.</li>
-                <li><strong>Forum chosen deliberately.</strong> Statutory, customary or negotiated resolution — assessed on your facts, not on habit.</li>
+                <li><strong>Forum chosen deliberately.</strong> Statutory, customary or negotiated resolution, assessed on your facts, not on habit.</li>
                 <li><strong>Discretion as policy.</strong> Family matters are handled by named counsel, with correspondence and filings kept as private as the process allows.</li>
               </ul>
             </div>
@@ -60,7 +60,7 @@ export default function PracticeAreasFamilyLawPage() {
               <h2>What to expect</h2>
               <ul>
                 <li>A confidential first consultation, and a written opinion on prospects before proceedings are recommended.</li>
-                <li>Honest advice on settlement at every stage — litigation is a tool here, not a default.</li>
+                <li>Honest advice on settlement at every stage, litigation is a tool here, not a default.</li>
                 <li>Clear fee structures, discussed before engagement.</li>
                 <li>One counsel responsible for your matter throughout.</li>
               </ul>
@@ -71,7 +71,7 @@ export default function PracticeAreasFamilyLawPage() {
               <div className="faq">
                 <details>
                   <summary>How do Nigerian courts decide custody?</summary>
-                  <p>By the best interests of the child — a holistic assessment of welfare, stability, care history and circumstances, not a presumption in favour of either parent. We examine how courts apply the standard in <a href="/insights/custody-best-interests-nigeria">Chambers Notes</a>.</p>
+                  <p>By the best interests of the child, a holistic assessment of welfare, stability, care history and circumstances, not a presumption in favour of either parent. We examine how courts apply the standard in <a href="/insights/custody-best-interests-nigeria">Chambers Notes</a>.</p>
                 </details>
                 <details>
                   <summary>Does it matter whether we married under the Act or customary law?</summary>
@@ -79,7 +79,7 @@ export default function PracticeAreasFamilyLawPage() {
                 </details>
                 <details>
                   <summary>Can family matters be settled without going to court?</summary>
-                  <p>Often, yes — negotiated terms of settlement, mediation, or consent orders. Where a negotiated outcome protects you adequately, we will recommend it and say why.</p>
+                  <p>Often, yes, negotiated terms of settlement, mediation, or consent orders. Where a negotiated outcome protects you adequately, we will recommend it and say why.</p>
                 </details>
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function PracticeAreasFamilyLawPage() {
               <h3>Typical work</h3>
               <ul>
                 <li>Custody, access &amp; guardianship</li>
-                <li>Dissolution — statutory &amp; customary</li>
+                <li>Dissolution, statutory &amp; customary</li>
                 <li>Maintenance &amp; settlement of property</li>
                 <li>Adoption proceedings</li>
               </ul>

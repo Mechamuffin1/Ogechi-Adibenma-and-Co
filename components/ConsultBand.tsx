@@ -15,7 +15,7 @@ export default function ConsultBand({ idPrefix = "cb", heading = "Tell us what y
         <div className="reveal">
           <span className="eyebrow">Request a Consultation</span>
           <h2>{heading}</h2>
-          <p>Write briefly and plainly — we will do the same. Every enquiry receives a considered reply within one business day.</p>
+          <p>Write briefly and plainly, and we will do the same. Every enquiry receives a considered reply within one business day.</p>
           <p><Link className="text-link" href="/contact">Full contact details &amp; office hours</Link></p>
         </div>
         <ConsultForm idPrefix={idPrefix} lightButton />

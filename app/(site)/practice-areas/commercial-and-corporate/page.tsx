@@ -3,13 +3,13 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Corporate & Commercial Law — Shareholders’ Agreements, Contracts & Compliance | Ogechi Adibenma & Co",
+  title: "Corporate & Commercial Law: Shareholders’ Agreements, Contracts & Compliance | Ogechi Adibenma & Co",
   description: "Commercial and corporate lawyers in Abuja, Nigeria. Incorporation, shareholders' agreements, commercial contracts, governance and regulatory compliance for businesses built to last.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/commercial-and-corporate.html" },
   openGraph: {
     type: "website",
     title: "Corporate & Commercial Law | Ogechi Adibenma & Co Legal Chambers",
-    description: "Drafted so the document holds when the relationship is tested — incorporation, shareholders' agreements, contracts and compliance.",
+    description: "Drafted so the document holds when the relationship is tested, incorporation, shareholders' agreements, contracts and compliance.",
   },
 };
 
@@ -17,8 +17,8 @@ const jsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Do we really need a shareholders' agreement if we have Articles of Association?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Articles are public and generic; a shareholders' agreement is private and specific. Deadlock, exit, valuation and vesting — the things that actually break founder relationships — live in the agreement, not the Articles." } },
-      { "@type": "Question", "name": "Can you review a contract the other side drafted?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Contract review with a written risk memorandum is a core part of the practice — you receive a plain-language account of what the document does, what it fails to do, and what we would change before signature." } },
+      { "@type": "Question", "name": "Do we really need a shareholders' agreement if we have Articles of Association?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Articles are public and generic; a shareholders' agreement is private and specific. Deadlock, exit, valuation and vesting, the things that actually break founder relationships, live in the agreement, not the Articles." } },
+      { "@type": "Question", "name": "Can you review a contract the other side drafted?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Contract review with a written risk memorandum is a core part of the practice, you receive a plain-language account of what the document does, what it fails to do, and what we would change before signature." } },
       { "@type": "Question", "name": "Do you work on fixed fees?", "acceptedAnswer": { "@type": "Answer", "text": "Wherever the scope allows it. Incorporations, standard agreements and defined reviews are quoted as fixed fees agreed in writing before work begins." } }
     ]
   };
@@ -43,7 +43,7 @@ export default function PracticeAreasCommercialAndCorporatePage() {
             <div className="container hero-inner">
               <p className="breadcrumb reveal"><a href="/practice-areas">Practice Areas</a> / Full-Service Practice</p>
               <h1 className="reveal" data-delay="1">Corporate &amp; Commercial</h1>
-              <p className="lede reveal" data-delay="2">We draft for the day the relationship is tested — because every agreement is eventually read by someone looking for a way out of it.</p>
+              <p className="lede reveal" data-delay="2">We draft for the day the relationship is tested, because every agreement is eventually read by someone looking for a way out of it.</p>
             </div>
           </div>
         </section>
@@ -53,7 +53,7 @@ export default function PracticeAreasCommercialAndCorporatePage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>Most commercial damage is self-inflicted at the start: the partnership begun on a handshake, the template shareholders&rsquo; agreement downloaded and half-adapted, the supply contract signed because the deal felt too good to slow down. By the time the dispute arrives, the documents either protect you or they don&rsquo;t — and no advocacy fully repairs a bad paper trail.</p>
+              <p>Most commercial damage is self-inflicted at the start: the partnership begun on a handshake, the template shareholders&rsquo; agreement downloaded and half-adapted, the supply contract signed because the deal felt too good to slow down. By the time the dispute arrives, the documents either protect you or they don&rsquo;t, and no advocacy fully repairs a bad paper trail.</p>
               <p>Our commercial clients are founders, family businesses, and growing companies that want their structures examined by counsel who will still be reachable in five years, and who write their reasoning down.</p>
             </div>
       
@@ -62,7 +62,7 @@ export default function PracticeAreasCommercialAndCorporatePage() {
               <ul>
                 <li><strong>Structure before paper.</strong> Incorporation under CAMA 2020, governance design, and founder arrangements settled before the first external signature.</li>
                 <li><strong>Agreements drafted to be tested.</strong> Shareholders&rsquo; agreements with real deadlock, exit and valuation machinery; commercial contracts whose remedies are actually usable in a Nigerian forum.</li>
-                <li><strong>Plain-language risk memoranda.</strong> Every review comes with a written account of what the document does, what it omits, and what we would change — in language a non-lawyer director can act on.</li>
+                <li><strong>Plain-language risk memoranda.</strong> Every review comes with a written account of what the document does, what it omits, and what we would change, in language a non-lawyer director can act on.</li>
                 <li><strong>Compliance as maintenance, not emergency.</strong> Annual returns, regulatory filings and board records kept in order quietly, so diligence never becomes drama.</li>
               </ul>
             </div>
@@ -72,7 +72,7 @@ export default function PracticeAreasCommercialAndCorporatePage() {
               <ul>
                 <li>A scoping conversation and a written fee proposal before any work begins.</li>
                 <li>Fixed fees for defined work: incorporations, standard agreements, contract reviews.</li>
-                <li>Drafts explained clause by clause on request — you should never sign what you cannot restate.</li>
+                <li>Drafts explained clause by clause on request, you should never sign what you cannot restate.</li>
                 <li>A standing file: we keep your corporate record so the next transaction starts from order, not archaeology.</li>
               </ul>
             </div>
@@ -81,12 +81,12 @@ export default function PracticeAreasCommercialAndCorporatePage() {
               <h2>Frequently asked questions</h2>
               <div className="faq">
                 <details>
-                  <summary>We have Articles of Association — do we need a shareholders&rsquo; agreement?</summary>
-                  <p>Yes. Articles are public and generic; a shareholders&rsquo; agreement is private and specific. Deadlock, exit, valuation and vesting — the things that actually break founder relationships — live in the agreement, not the Articles. We have written about the four clauses that matter most in <a href="/insights/shareholders-agreements-before-you-sign">Chambers Notes</a>.</p>
+                  <summary>We have Articles of Association, do we need a shareholders&rsquo; agreement?</summary>
+                  <p>Yes. Articles are public and generic; a shareholders&rsquo; agreement is private and specific. Deadlock, exit, valuation and vesting, the things that actually break founder relationships, live in the agreement, not the Articles. We have written about the four clauses that matter most in <a href="/insights/shareholders-agreements-before-you-sign">Chambers Notes</a>.</p>
                 </details>
                 <details>
                   <summary>Can you review a contract the other side drafted?</summary>
-                  <p>Yes — review with a written risk memorandum is core work for this practice. You receive a plain account of what the document does, what it fails to do, and what we would change before signature.</p>
+                  <p>Yes, review with a written risk memorandum is core work for this practice. You receive a plain account of what the document does, what it fails to do, and what we would change before signature.</p>
                 </details>
                 <details>
                   <summary>Do you work on fixed fees?</summary>

@@ -3,8 +3,8 @@ import ConsultBand from "@/components/ConsultBand";
 import LegacyFx from "@/components/LegacyFx";
 
 export const metadata: Metadata = {
-  title: "Litigation in Nigeria — Civil & Commercial Trial and Appellate Advocacy | Ogechi Adibenma & Co",
-  description: "Litigation lawyers in Abuja, Nigeria. Civil and commercial trial and appellate advocacy before Nigerian courts — built on documents and an honest reading of prospects before a claim is filed.",
+  title: "Litigation in Nigeria: Civil & Commercial Trial and Appellate Advocacy | Ogechi Adibenma & Co",
+  description: "Litigation lawyers in Abuja, Nigeria. Civil and commercial trial and appellate advocacy before Nigerian courts, built on documents and an honest reading of prospects before a claim is filed.",
   alternates: { canonical: "https://www.ogechiadibenma.com/practice-areas/litigation.html" },
   openGraph: {
     type: "website",
@@ -32,7 +32,7 @@ export default function PracticeAreasLitigationPage() {
             <div className="container hero-inner">
               <p className="breadcrumb reveal"><a href="/practice-areas">Practice Areas</a> / Signature Practice</p>
               <h1 className="reveal" data-delay="1">Litigation</h1>
-              <p className="lede reveal" data-delay="2">Trial and appellate advocacy for the disputes that must be fought — argued on the documents, and only after an honest reading of what the case is worth.</p>
+              <p className="lede reveal" data-delay="2">Trial and appellate advocacy for the disputes that must be fought, argued on the documents, and only after an honest reading of what the case is worth.</p>
             </div>
           </div>
         </section>
@@ -42,13 +42,13 @@ export default function PracticeAreasLitigationPage() {
       
             <div className="reveal">
               <h2>The problem clients bring us</h2>
-              <p>By the time a dispute reaches a courtroom, its outcome is largely set by the record: what was written, signed, filed and preserved. Clients come to us with breached contracts, shareholder and partnership fights, property claims and regulatory challenges — needing an advocate who will build the case on evidence rather than volume, and who will say plainly when a claim is not worth pursuing.</p>
+              <p>By the time a dispute reaches a courtroom, its outcome is largely set by the record: what was written, signed, filed and preserved. Clients come to us with breached contracts, shareholder and partnership fights, property claims and regulatory challenges, needing an advocate who will build the case on evidence rather than volume, and who will say plainly when a claim is not worth pursuing.</p>
             </div>
       
             <div className="reveal">
               <h2>Our approach</h2>
               <ul>
-                <li><strong>Merits before motion.</strong> A written opinion on prospects, quantum and realistic timelines before proceedings are recommended — including when we advise against them.</li>
+                <li><strong>Merits before motion.</strong> A written opinion on prospects, quantum and realistic timelines before proceedings are recommended, including when we advise against them.</li>
                 <li><strong>Pleadings built on documents.</strong> The evidentiary spine is assembled before the first process is filed; cases are won on records, not rhetoric.</li>
                 <li><strong>Appellate discipline.</strong> Points preserved at trial, and appeals taken only where the law and the record genuinely support them.</li>
                 <li><strong>Enforcement planned early.</strong> A judgment you cannot enforce is a certificate; we identify assets and routes when strategy is set.</li>
@@ -70,7 +70,7 @@ export default function PracticeAreasLitigationPage() {
               <div className="faq">
                 <details>
                   <summary>How is litigation different from your dispute-resolution practice?</summary>
-                  <p>They overlap. <a href="/practice-areas/dispute-resolution">Dispute resolution</a> covers the full toolkit — negotiation, mediation and arbitration as well as court. This practice is the courtroom end of it: trial and appellate advocacy when a matter is, or must be, litigated to judgment.</p>
+                  <p>They overlap. <a href="/practice-areas/dispute-resolution">Dispute resolution</a> covers the full toolkit, negotiation, mediation and arbitration as well as court. This practice is the courtroom end of it: trial and appellate advocacy when a matter is, or must be, litigated to judgment.</p>
                 </details>
                 <details>
                   <summary>Will you tell me if my case is weak?</summary>
