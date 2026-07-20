@@ -145,7 +145,7 @@ export default async function HomePage() {
       <section className="section" id="people">
         <div className="container">
           <div className="section-head reveal">
-            <span className="eyebrow">The People</span>
+            <span className="eyebrow">Meet Our Team</span>
             <h2>Named, never faceless</h2>
             <p className="lede">Every matter is held by counsel you can name and read, so authority is something you verify before you call.</p>
           </div>

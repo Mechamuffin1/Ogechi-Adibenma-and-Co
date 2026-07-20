@@ -7,13 +7,13 @@ import { getAllLawyers } from "@/sanity/lib/fetch";
 import { urlForImage } from "@/sanity/lib/image";
 
 export const metadata: Metadata = {
-  title: "People: Named Counsel in Surrogacy, Commercial & Family Law | Ogechi Adibenma & Co",
+  title: "Meet Our Team: Named Counsel in Surrogacy, Commercial & Family Law | Ogechi Adibenma & Co",
   description:
     "The lawyers of Ogechi Adibenma & Co Legal Chambers, Abuja. Every matter is handled by named counsel whose thinking you can read before you call.",
   alternates: { canonical: "https://www.ogechiadibenma.com/people/" },
   openGraph: {
     type: "website",
-    title: "People | Ogechi Adibenma & Co Legal Chambers",
+    title: "Meet Our Team | Ogechi Adibenma & Co Legal Chambers",
     description: "Counsel with names, faces and bylines.",
   },
 };
@@ -29,7 +29,7 @@ export default async function PeoplePage() {
         <div className="hero-panel">
           <GeoField />
           <div className="container hero-inner">
-            <span className="eyebrow reveal">The People</span>
+            <span className="eyebrow reveal">Meet Our Team</span>
             <h1 className="reveal" data-delay="1">Counsel with names,<br />faces and bylines.</h1>
             <p className="lede reveal" data-delay="2">Every matter in this chambers is handled by named counsel, and you can read what each of us thinks in Chambers Notes before you ever call.</p>
           </div>

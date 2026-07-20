@@ -108,7 +108,7 @@ export default async function LawyerProfilePage({ params }: Props) {
         </aside>
 
         <div className="profile-main">
-          <p className="breadcrumb reveal"><Link href="/people">People</Link>{person.role ? ` / ${person.role}` : ""}</p>
+          <p className="breadcrumb reveal"><Link href="/people">Meet Our Team</Link>{person.role ? ` / ${person.role}` : ""}</p>
           <h1 className="reveal" style={{ fontSize: "clamp(2rem, 4vw, 2.8rem)" }}>{person.name}</h1>
           {person.lede && <p className="lede reveal" data-delay="1">{person.lede}</p>}
 

@@ -23,7 +23,7 @@ export default function Footer() {
             <h4>Chambers</h4>
             <ul>
               <li><Link href="/insights">Chambers Notes</Link></li>
-              <li><Link href="/people">People</Link></li>
+              <li><Link href="/people">Meet Our Team</Link></li>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>

@@ -77,16 +77,16 @@ export default function AboutPage() {
         <section className="section">
           <div className="container">
             <div className="section-head reveal">
-              <span className="eyebrow">The People</span>
+              <span className="eyebrow">Meet Our Team</span>
               <h2>Who holds the standard</h2>
-              <p className="lede">Full profiles, credentials, admissions, publications and a line of personality each, are on the People page.</p>
+              <p className="lede">Full profiles, credentials, admissions, publications and a line of personality each, are on the Meet Our Team page.</p>
             </div>
             <div className="people-grid">
               <a className="person-card reveal" href="/people/ogechi-adibenma">
                 <div className="person-photo"><img src="/media/partners/ogechi-adibenma.jpeg" alt="Ogechi Adibenma, Esq." /></div>
                 <div className="person-body">
                   <h3>Ogechi Adibenma, Esq.</h3>
-                  <div className="role">Principal Partner</div>
+                  <div className="role">Managing Partner</div>
                   <p className="cred">Surrogacy &amp; fertility, family law. Founder of the chambers and of Chambers Notes.</p>
                 </div>
               </a>
