@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ConsultForm from "@/components/ConsultForm";
+import MailAnimation from "@/components/MailAnimation";
 
 export const metadata: Metadata = {
   title: "Contact: Request a Consultation | Ogechi Adibenma & Co Legal Chambers, Abuja",
@@ -36,10 +37,13 @@ export default function ContactPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <section className="page-hero">
-        <div className="container">
-          <span className="eyebrow reveal">Contact</span>
-          <h1 className="reveal" data-delay="1">Request a consultation.</h1>
-          <p className="lede reveal" data-delay="2">One form, read by a lawyer, answered within one business day. That is the whole process.</p>
+        <div className="container contact-hero">
+          <div>
+            <span className="eyebrow reveal">Contact</span>
+            <h1 className="reveal" data-delay="1">Request a consultation.</h1>
+            <p className="lede reveal" data-delay="2">One form, read by a lawyer, answered within one business day.</p>
+          </div>
+          <MailAnimation />
         </div>
       </section>
 
