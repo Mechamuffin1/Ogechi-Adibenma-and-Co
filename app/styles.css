@@ -458,6 +458,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .practice-card p { color: var(--muted); font-size: 0.98rem; margin-bottom: 1.5em; }
 .practice-card .text-link { margin-top: auto; align-self: flex-start; border-bottom-color: transparent; }
 .practice-card .btn { margin-top: auto; align-self: flex-start; }
+/* Signature cards: arrow pill sits at the right edge, stretched wider */
+.practice-card--signature .btn--icon { align-self: flex-end; padding: 0.72rem 2.2rem; }
 .practice-card:hover .text-link { border-bottom-color: var(--accent); }
 
 .practice-card--signature {
