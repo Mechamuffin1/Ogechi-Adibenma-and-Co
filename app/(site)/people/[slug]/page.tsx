@@ -31,10 +31,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-function monthYear(iso?: string) {
-  return iso ? new Date(iso).toLocaleDateString("en-GB", { month: "long", year: "numeric" }) : "";
-}
-
 /* Sidebar rows come from plain-text conventions non-technical editors can
    manage: credentials as "Label: detail" lines, practice areas as a list. */
 function credentialRows(credentials?: string) {
@@ -127,7 +123,7 @@ export default async function LawyerProfilePage({ params }: Props) {
               <ul>
                 {person.articles.map((a) => (
                   <li key={a.slug}>
-                    <Link href={`/insights/${a.slug}`}>{a.title}</Link>, Chambers Notes, {monthYear(a.publishedAt)}
+                    <Link href={`/insights/${a.slug}`}>{a.title}</Link>
                   </li>
                 ))}
               </ul>
