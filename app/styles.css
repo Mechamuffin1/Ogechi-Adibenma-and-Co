@@ -328,8 +328,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .hero-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
 .hero-photo-scrim {
   position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(148deg, rgba(15, 31, 58, 0.66) 0%, rgba(27, 58, 110, 0.5) 52%, rgba(47, 99, 176, 0.36) 100%);
+  background: linear-gradient(148deg, rgba(11, 23, 45, 0.78) 0%, rgba(20, 44, 86, 0.62) 52%, rgba(33, 70, 128, 0.5) 100%);
 }
+/* Lift the heading and intro off the photo for legibility. */
+.hero--photo h1, .hero--photo .lede { text-shadow: 0 2px 20px rgba(9, 18, 36, 0.55); }
 .hero--photo .hero-panel { background: var(--navy); }
 .hero--photo .geo-field { z-index: 2; opacity: 0.5; }
 .hero--photo .hero-inner { z-index: 3; }
@@ -458,8 +460,19 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .practice-card p { color: var(--muted); font-size: 0.98rem; margin-bottom: 1.5em; }
 .practice-card .text-link { margin-top: auto; align-self: flex-start; border-bottom-color: transparent; }
 .practice-card .btn { margin-top: auto; align-self: flex-start; }
+/* Signature cards: arrow pill at the right edge. Fixed size so both pills
+   are identical, elongated, with the arrow centred and sized to match. */
+.practice-card--signature .btn--icon {
+  align-self: flex-end;
+  width: 84px;
+  height: 46px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.practice-card--signature .btn--icon svg { width: 38px; height: 14px; }
 /* Signature cards: arrow pill sits at the right edge, stretched wider */
-.practice-card--signature .btn--icon { align-self: flex-end; padding: 0.72rem 2.2rem; }
 .practice-card:hover .text-link { border-bottom-color: var(--accent); }
 
 .practice-card--signature {
@@ -718,7 +731,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .person-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 .person-card .person-body { padding: 1.5rem 1.75rem 1.75rem; }
-.person-card h3 { font-size: 1.25rem; margin-bottom: 0.2em; }
+/* Reserve two lines for the name so the role line sits at the same height
+   across every card, whether the name wraps or not. */
+.person-card h3 { font-size: 1.25rem; line-height: 1.25; margin-bottom: 0.4rem; min-height: 2.5em; }
 .person-card .role {
   font-family: var(--sans);
   font-size: 0.7rem;
@@ -726,7 +741,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent-dark);
-  margin-bottom: 0.8rem;
+  margin-bottom: 0;
 }
 .person-card .cred { color: var(--muted); font-size: 0.92rem; margin: 0; }
 

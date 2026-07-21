@@ -46,13 +46,13 @@ export default function PracticeAreasPage() {
                 <span className="eyebrow">Signature Practice</span>
                 <h3>Surrogacy &amp; Fertility Law</h3>
                 <p>Nigeria has no comprehensive surrogacy statute, which makes the agreement, the sequence and the counsel decisive. We act for intending parents, surrogates and clinics through the whole arc: agreements, consents, parental rights and birth registration.</p>
-                <span className="btn btn--icon" aria-hidden="true"><svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h21M17.5 3.5 22 8l-4.5 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
+                <span className="btn btn--icon" aria-hidden="true"><svg width="38" height="14" viewBox="0 0 38 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7h34M29 2l6 5-6 5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
               </a>
               <a className="practice-card practice-card--signature reveal" data-delay="1" href="/practice-areas/dispute-resolution">
                 <span className="eyebrow">Signature Practice</span>
                 <h3>Dispute Resolution</h3>
                 <p>Negotiation, mediation, arbitration and trial and appellate advocacy before Nigerian courts. We tell clients honestly which disputes are worth fighting, and fight the ones that are, on the documents, after an honest reading of what the case is worth.</p>
-                <span className="btn btn--icon" aria-hidden="true"><svg width="26" height="16" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8h21M17.5 3.5 22 8l-4.5 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
+                <span className="btn btn--icon" aria-hidden="true"><svg width="38" height="14" viewBox="0 0 38 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7h34M29 2l6 5-6 5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg></span>
               </a>
             </div>
           </div>
